@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Table Layout adalah Layout yang digunakan untuk membangun
+user interface (tampilan antar muka ) aplikasi android dengan berdasarkan Baris dan Kolom.-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:stretchColumns="1"
+    tools:context=".StatusFragment">
+    <!--Tabel (Table) adalah sebuah data tabular dalam bentuk
+             grid yang terdiri dari kolom (column), baris (row) dan celll yang merupakan pertemuan antara kolom dan baris.-->
+    <TableRow
+        android:background="#bbd46a">
+        <!--Kelas TextView adalah subkelas dari kelas View yang menampilkan teks di layar.
+           Anda bisa mengontrol bagaimana teks muncul dengan atribut TextView pada file. -->
+        <TextView
+            android:text="Brodie"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <!--Tampilan -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TableRow
+        android:background="#bbd46a">
+        <TextView
+            android:text="Kagura"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TableRow
+        android:background="#bbd46a">
+        <TextView
+            android:text="Hayabusa"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TableRow
+        android:background="#bbd46a">
+        <TextView
+            android:text="Lancelot"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TableRow
+        android:background="#bbd46a">
+        <TextView
+            android:text="Vexana"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TableRow
+        android:background="#bbd46a">
+        <TextView
+            android:text="Nana"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TableRow
+        android:background="#bbd46a">
+        <TextView
+            android:text="Angela"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TableRow
+        android:background="#bbd46a">
+        <TextView
+            android:text="Helcurt"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TableRow
+        android:background="#bbd46a">
+        <TextView
+            android:text="Miya"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TableRow
+        android:background="#bbd46a">
+        <TextView
+            android:text="Layla"
+            android:padding="25dip"
+            android:textSize="16dp"/>
+        <TextView
+            android:text="21.20"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:padding="15dip"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+</TableLayout>

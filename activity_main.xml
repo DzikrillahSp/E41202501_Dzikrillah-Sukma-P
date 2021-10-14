@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--relativelayout adalah layout yang menempatkan suatu item relative terhadap parent
+atau item lain pada UI. Untuk ukurannya menggunakan atribut match_parent digunakan agar lebar atau tinggi komponen,
+dapat mengikuti layar atau screen pada perangkat Android.lalu backgroundnya menggunakan warna green light-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--Frame Layout pada Android ialah subclass ViewGroup yang digunakan untuk menentukan posisi beberapa tampilan yang ditempatkan di atas satu
+sama lain untuk mewakili layar tampilan tunggal. -->
+    <FrameLayout
+        android:id="@+id/fragmen_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation" />
+
+
+<!--Bottom navigation bars display three to five destinations at the bottom of a screen. Each destination is represented
+ by an icon and an optional text label. -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
